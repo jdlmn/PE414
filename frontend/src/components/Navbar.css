@@ -1,0 +1,10 @@
+.navbar {
+  width: 100%;
+  background: #4a90e2;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
