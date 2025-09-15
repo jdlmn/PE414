@@ -1,0 +1,18 @@
+.welcome-container {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* instead of center */
+  gap: 24px;
+  padding: 48px 24px 24px; /* more padding at top */
+  box-sizing: border-box;
+  background: linear-gradient(180deg, #1f2937 0%, #111827 100%); /* dark gradient to match */
+}
+
+.welcome-title {
+  margin-top: 40px; /* extra breathing room under navbar */
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f9fafb;
+}

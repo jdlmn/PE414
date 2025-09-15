@@ -1,59 +1,19 @@
 /* App container */
 .app-container {
   min-height: 100vh;
-  width: 100vw; /* full viewport width */
+  width: 100vw; 
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
   background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
 }
 
-
-/* Breed selector */
-.breed-selector {
-  margin: 20px 0;
-}
-
-.breed-selector label {
-  color: #000;
-  font-size: 1.2rem;
-  margin-right: 10px;
-  font-weight: bold;
-}
-
-.breed-selector select {
-  padding: 10px 14px;
-  font-size: 1rem;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-  outline: none;
-  cursor: pointer;
-}
-
-.breed-selector select:hover {
-  border-color: #888;
-}
-
-/* Placeholder landing card */
-.placeholder-card {
-  background: #fff;
-  padding: 60px;
-  border-radius: 16px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  margin-top: 100px;
-  max-width: 600px;
-}
-
-.placeholder-card h2 {
-  font-size: 2.2rem;
-  margin-bottom: 10px;
-}
-
-.placeholder-card p {
-  font-size: 1.2rem;
-  color: #555;
+/* Page content area */
+.page-content {
+  flex: 1; /* fills remaining space */
+  width: 100%;
+  max-width: 1200px; /* keeps content centered */
+  margin: 0 auto;
+  padding: 40px 20px;
 }
